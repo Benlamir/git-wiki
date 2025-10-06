@@ -6,6 +6,7 @@ git status               # show working directory status
 git add .                # stage all changes
 git commit -m "msg"      # commit staged changes
 git git remote add origin git@github.com:Benlamir/Example.git        #Links your local repository to the remote GitHub repository at that address
+git -M main              # Renames the current branch to main (creating it if needed) and sets it as the primary branch.
 git push -u origin main  # push to remote
 
 ## Branching
