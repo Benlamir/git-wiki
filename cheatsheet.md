@@ -1,9 +1,11 @@
 # Git Cheatsheet
 
 ## Basics
+git init                 # Initializes a new local Git repository in the current folder
 git status               # show working directory status
 git add .                # stage all changes
 git commit -m "msg"      # commit staged changes
+git git remote add origin git@github.com:Benlamir/Example.git        #Links your local repository to the remote GitHub repository at that address
 git push -u origin main  # push to remote
 
 ## Branching
