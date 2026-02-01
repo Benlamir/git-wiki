@@ -1,0 +1,9 @@
+Pour n'importe quel futur projet Backend Django avec Docker, l'ordre est immuable :
+
+INFRA (Docker) : Créer Dockerfile et docker-compose.yml pour avoir Python et Postgres.
+
+SQUELETTE (Startproject) : docker compose run backend django-admin startproject nom_projet .
+
+DONNÉES (Migrate) : docker compose exec backend python manage.py migrate (Créer les tables).
+
+ACCÈS (Superuser) : docker compose exec backend python manage.py createsuperuser (Créer l'admin).
