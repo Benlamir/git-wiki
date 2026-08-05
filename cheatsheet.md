@@ -10,6 +10,7 @@ git branch -M main              # Renames the current branch to main (creating i
 git push -u origin main  # push to remote
 git clone git@github.com:username/example-repo     # clone a repo into the local machine
 gh repo list username --limit 100     # list the repos of a github account (requires the GitHub CLI; install it via sudo apt install gh if not already installed).
+gh repo create REPOSITORY_NAME --private --source=. --remote=origin --push    # create a new repo from local machine
  
 ## Branching
 git branch               # list branches
